@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/CodingWorkshop/grapesjs-starter#readme",
   "dependencies": {
-    "grapesjs": "^0.14.62"
+    "grapesjs": "^0.14.62",
+    "grapesjs-preset-webpage": "^0.1.11"
   }
 }
