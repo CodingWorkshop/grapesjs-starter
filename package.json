@@ -21,7 +21,8 @@
   "dependencies": {
     "@babel/core": "^7.5.5",
     "grapesjs": "^0.14.62",
-    "grapesjs-preset-webpage": "^0.1.11"
+    "grapesjs-preset-webpage": "^0.1.11",
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.5.5",
