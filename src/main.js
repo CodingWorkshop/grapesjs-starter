@@ -8,8 +8,7 @@ import grapesjsTooltip from 'grapesjs-tooltip';
 
 var editor = grapesjs.init({
   container: '#gjs',
-  components: '<div class="txt-red">Hello world!</div>',
-  style: '.txt-red{color: red}',
+  height: '100%',
   plugins: [
     'gjs-preset-webpage',
     'grapesjs-lory-slider',

@@ -1,3 +1,8 @@
-@import '~normalize.css';
-@import '~grapesjs/dist/css/grapes.min.css';
-@import '~grapesjs-preset-webpage/dist/grapesjs-preset-webpage.min.css';
+@import "~normalize.css";
+@import "~grapesjs/dist/css/grapes.min.css";
+@import "~grapesjs-preset-webpage/dist/grapesjs-preset-webpage.min.css";
+
+html,
+body {
+  height: 100%;
+}
