@@ -21,7 +21,11 @@
   "dependencies": {
     "@babel/core": "^7.5.5",
     "grapesjs": "^0.14.62",
+    "grapesjs-custom-code": "^0.1.2",
+    "grapesjs-lory-slider": "^0.1.5",
     "grapesjs-preset-webpage": "^0.1.11",
+    "grapesjs-tabs": "^0.1.2",
+    "grapesjs-tooltip": "^0.1.5",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
