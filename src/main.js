@@ -3,8 +3,8 @@ import './style.css';
 import 'grapesjs-preset-webpage';
 import 'grapesjs-lory-slider';
 import 'grapesjs-tabs';
-import pluginCustomCode from 'grapesjs-custom-code';
-import pluginTooltip from 'grapesjs-tooltip';
+import grapesjsCustomCode from 'grapesjs-custom-code';
+import grapesjsTooltip from 'grapesjs-tooltip';
 
 var editor = grapesjs.init({
   container: '#gjs',
@@ -14,29 +14,19 @@ var editor = grapesjs.init({
     'gjs-preset-webpage',
     'grapesjs-lory-slider',
     'grapesjs-tabs',
-     pluginCustomCode,
-     pluginTooltip
+    grapesjsCustomCode,
+    grapesjsTooltip,
   ],
   pluginsOpts: {
     'grapesjs-lory-slider': {
       sliderBlock: {
-        category: 'Extra'
-      }
+        category: 'Extra',
+      },
     },
     'grapesjs-tabs': {
       tabsBlock: {
-        category: 'Extra'
-      }
+        category: 'Extra',
+      },
     },
-    [pluginCustomCode]: {
-      blockCustomCode: {
-        category: 'Extra'
-      }
-    },
-    [pluginTooltip]: {
-      blockTooltip: {
-        category: 'Extra'
-      }
-    }
   }
 });
