@@ -20,11 +20,11 @@
   "homepage": "https://github.com/CodingWorkshop/grapesjs-starter#readme",
   "dependencies": {
     "@babel/core": "^7.5.5",
-    "grapesjs": "^0.14.62",
+    "grapesjs": "^0.15.8",
     "grapesjs-custom-code": "^0.1.2",
     "grapesjs-lory-slider": "^0.1.5",
     "grapesjs-preset-webpage": "^0.1.11",
-    "grapesjs-tabs": "^0.1.2",
+    "grapesjs-tabs": "^0.2.1",
     "grapesjs-tooltip": "^0.1.5",
     "normalize.css": "^8.0.1"
   },
@@ -32,12 +32,12 @@
     "@babel/preset-env": "^7.5.5",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
-    "css-loader": "^3.1.0",
-    "file-loader": "^4.1.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
     "html-webpack-plugin": "^4.0.0-beta.8",
     "style-loader": "^0.23.1",
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
